@@ -1,8 +1,8 @@
-# 🏦 AI-Powered Loan Approval System
+# AI-Powered Loan Approval System
 
 An end-to-end Machine Learning web application that automates loan approval decisions. By analyzing 14 distinct financial and demographic features, the system uses a pre-trained Logistic Regression model to instantly predict whether a loan application should be approved or rejected.
 
-## 🌟 Features
+## Features
 
 - **Real-Time Predictions**: Instant loan approval/rejection decisions based on user input.
 - **Interactive Analytics Dashboard**: Visualizes overall approval rates, total applications, and distribution across income brackets using Chart.js.
@@ -11,7 +11,18 @@ An end-to-end Machine Learning web application that automates loan approval deci
 
 ---
 
-## 🛠️ Technologies & Skills Used
+## Technologies & Skills Used
+
+<div align="center">
+  <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python" />
+  <img src="https://img.shields.io/badge/flask-%23000.svg?style=for-the-badge&logo=flask&logoColor=white" alt="Flask" />
+  <img src="https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="scikit-learn" />
+  <img src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" />
+  <img src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+  <img src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+  <img src="https://img.shields.io/badge/chart.js-F5788D.svg?style=for-the-badge&logo=chart.js&logoColor=white" alt="Chart.js" />
+</div>
+<br/>
 
 ### Backend
 - **Python**: Core programming language.
@@ -29,7 +40,7 @@ An end-to-end Machine Learning web application that automates loan approval deci
 
 ---
 
-## 🔄 System Flowchart
+## System Flowchart
 
 The following flowchart illustrates how data moves through the application:
 
@@ -46,28 +57,28 @@ flowchart TD
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```text
-📁 Loan approval system
-├── 📄 app.py                           # Main Flask application and routes
-├── 📄 logistic_regression_model.pkl    # Pre-trained ML model
-├── 📄 requirements.txt                 # Python dependencies
-├── 📁 static/
-│   ├── 📁 images/                      # Assets for Approved/Rejected states
-│   └── 📄 style.css                    # Custom application styling
-└── 📁 templates/                       # Jinja2 HTML Templates
-    ├── 📄 index.html / home.html       # Landing pages
-    ├── 📄 predict.html                 # Prediction form page
-    ├── 📄 dashboard.html               # High-level metrics view
-    ├── 📄 analytics.html               # Deep-dive charts (Chart.js)
-    ├── 📄 history.html                 # Session log table
-    └── 📄 model.html                   # Educational model info page
+Loan approval system/
+├── app.py                           # Main Flask application and routes
+├── logistic_regression_model.pkl    # Pre-trained ML model
+├── requirements.txt                 # Python dependencies
+├── static/
+│   ├── images/                      # Assets for Approved/Rejected states
+│   └── style.css                    # Custom application styling
+└── templates/                       # Jinja2 HTML Templates
+    ├── index.html / home.html       # Landing pages
+    ├── predict.html                 # Prediction form page
+    ├── dashboard.html               # High-level metrics view
+    ├── analytics.html               # Deep-dive charts (Chart.js)
+    ├── history.html                 # Session log table
+    └── model.html                   # Educational model info page
 ```
 
 ---
 
-## 🚀 How to Run Locally
+## How to Run Locally
 
 Follow these steps to run the project on your local machine:
 
@@ -93,7 +104,7 @@ Follow these steps to run the project on your local machine:
 
 ---
 
-## 🧠 Machine Learning Details
+## Machine Learning Details
 
 The core of this application is a **Logistic Regression** algorithm, a statistical method used for binary classification. 
 
@@ -103,6 +114,3 @@ It evaluates the following 14 features:
 * `Education Level`, `Employment Status`, `Property Area` (Urban/Semiurban)
 
 Based on patterns learned from historical data, the model outputs a probability that is converted into a binary decision: `1` (Approved) or `0` (Rejected).
-
----
-*Note: A GitHub Personal Access Token was identified in your request. For security reasons, never commit API keys or tokens directly to your repository. If the token was real, please revoke it immediately in your GitHub Developer Settings.*
